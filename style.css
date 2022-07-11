@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0px;
+    background-image: url("https://source.unsplash.com/random/900x700/?mountains");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.parent-card{
+    height:96vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(29, 172, 182);
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    padding:27px;
+    border-radius: 10px;
+    width:310px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.8);
+}
+.location,.humidity,.windspeed,.desc{
+    font-family: 'Noto Sans', sans-serif;
+    color:white;
+}
+.temp{
+    font-family: 'Noto Sans', sans-serif;
+    color:white;
+    font-size: 40px;
+    margin-top: 7px;
+}
+.search{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px;
+}
+.searchbox{
+    height:27px;
+    width:250px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    color:rgb(249, 252, 249);
+    font-size: 15px;
+    margin-right: 9px;
+}
+.btn{
+    margin-left: 6px;
+    height:28px;
+    width:28px;
+    border-radius: 15px;
+    border: 1px solid black;
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+.btn:hover{
+    background-color: rgba(41, 45, 41, 0.521);
+}
+.windspeed{
+ margin:0px;
+}
+.forecast{
+    display:flex;
+    justify-content: center;
+   
+}
+.forecast div{
+    height:170px;
+    width:170px;
+    background-color: rgb(244, 244, 249);
+    margin:15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.8);
+}
+.descicon{
+    display:flex;
+    height:50px;
+    align-items: center;
+    height:25px;
+   margin: 14px auto;
+
+}
+
+
+.location{
+    margin-top:13px;
+    font-size: 20px;
+    color:white;
+    font-weight: 400;
+}
+.img{
+    height: 30px;width:30px;
+    margin-right: 8px;
+    
+}
+
+.header{
+ margin:5px 10px;
+ background-color: white;
+ display: inline-block;
+}
+.headertext{
+    padding: 4px;
+    color:red;
+    font-size:25px;
+}
+.humidity,.windspeed{
+    margin-left: 4px;
+}
